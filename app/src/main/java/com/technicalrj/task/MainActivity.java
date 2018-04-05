@@ -132,6 +132,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void gologin(View view){
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+    }
+
     private void sendUserData(){
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = firebaseDatabase.getReference(firebaseAuth.getUid());

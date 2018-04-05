@@ -5,16 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.technicalrj.task.MainActivity"
-    android:background="@drawable/back1"
+    android:background="#1a0f00"
 
     >
 
-<RelativeLayout
-    android:layout_width="320dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginLeft="35dp"
-    android:layout_height="460dp"
-    android:background="@drawable/back">
+
 
     <EditText
         android:id="@+id/Remail"
@@ -22,15 +17,14 @@
         android:layout_height="50dp"
         android:textSize="16sp"
         android:hint="Email"
-
         android:inputType="textEmailAddress"
         android:maxLines="1"
         android:singleLine="true"
         android:background="@drawable/button_style"
         android:gravity="center"
-        android:textColor="#F0FFFF"
-        android:textColorHint="#F0FFFF"
-        android:layout_margin="10dp"/>
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_margin="20dp"/>
 
     <EditText
         android:id="@+id/Rpassword"
@@ -44,9 +38,9 @@
         android:singleLine="true"
         android:background="@drawable/button_style"
         android:gravity="center"
-        android:textColor="#F0FFFF"
-        android:textColorHint="#F0FFFF"
-        android:layout_margin="10dp"/>
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_margin="20dp"/>
 
 
     <EditText
@@ -61,9 +55,9 @@
         android:singleLine="true"
         android:background="@drawable/button_style"
         android:gravity="center"
-        android:textColor="#F0FFFF"
-        android:textColorHint="#F0FFFF"
-        android:layout_margin="10dp"/>
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_margin="20dp"/>
 
     <EditText
         android:id="@+id/Rage"
@@ -77,25 +71,24 @@
         android:singleLine="true"
         android:background="@drawable/button_style"
         android:gravity="center"
-        android:textColor="#F0FFFF"
-        android:textColorHint="#F0FFFF"
-        android:layout_margin="10dp"/>
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_margin="20dp"/>
 
 
     <Button
 
 
-        android:layout_marginLeft="80dp"
-        android:layout_width="150dp"
 
+        android:layout_width="150dp"
         android:id="@+id/regButton"
         style="?android:textAppearanceSmall"
-
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Rage"
         android:layout_marginTop="21dp"
-        android:background=" #339966"
+        android:layout_marginLeft="120dp"
+        android:background=" #ff4dd2"
         android:fontFamily="sans-serif-light"
         android:text="Register"
         android:textColor="#ffffff"
@@ -104,7 +97,7 @@
     <Button
 
 
-        android:layout_marginLeft="80dp"
+
         android:layout_width="150dp"
         android:id="@+id/log"
         style="?android:textAppearanceSmall"
@@ -113,6 +106,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/regButton"
         android:layout_marginTop="21dp"
+        android:layout_marginLeft="120dp"
         android:background=" #339966"
         android:fontFamily="sans-serif-light"
         android:text="Log in"
@@ -121,6 +115,6 @@
         android:textStyle="bold" />
 
 
-</RelativeLayout>
+
 
 </RelativeLayout>
