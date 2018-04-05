@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technicalrj.task.Feedback"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/feedback_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Feedback"
+        android:textColor="#ffff"
+        android:textSize="40sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/Fname"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="#ff9900"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:background="@drawable/button_style"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        />
+
+    <EditText
+        android:id="@+id/Femail"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ff9900"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/button_style"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"/>
+
+
+    <EditText
+        android:id="@+id/Fmessage"
+        android:layout_margin="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ff9900"
+        android:gravity="top"
+        android:hint="Your Message"
+        android:fitsSystemWindows="true"
+        android:breakStrategy="balanced"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:padding="5dp"
+        android:background="@drawable/button_style"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:onClick="gosubmit"/>
+
+</LinearLayout>

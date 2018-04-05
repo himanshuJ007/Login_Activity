@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technicalrj.task.SecondActivity"
+    android:background="@drawable/back1">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:text="LOGOUT"
+        android:textColor="#ffff"
+        android:onClick="gologout"
+        android:background="@drawable/button_style"/>
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_below="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="FEEDBACK"
+        android:textColor="#ffff"
+        android:onClick="gofeedback"
+        android:background="@drawable/button_style"/>
+
+</RelativeLayout>

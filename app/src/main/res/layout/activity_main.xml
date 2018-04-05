@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technicalrj.task.MainActivity"
+    android:background="@drawable/back1"
+
+    >
+
+<RelativeLayout
+    android:layout_width="320dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="35dp"
+    android:layout_height="460dp"
+    android:background="@drawable/back">
+
+    <EditText
+        android:id="@+id/Remail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:hint="Email"
+
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:textColor="#F0FFFF"
+        android:textColorHint="#F0FFFF"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/Rpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Remail"
+        android:textSize="16sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:textColor="#F0FFFF"
+        android:textColorHint="#F0FFFF"
+        android:layout_margin="10dp"/>
+
+
+    <EditText
+        android:id="@+id/Rusername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Rpassword"
+        android:textSize="16sp"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:textColor="#F0FFFF"
+        android:textColorHint="#F0FFFF"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/Rage"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/Rusername"
+        android:textSize="16sp"
+        android:layout_height="50dp"
+        android:hint="Age"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:textColor="#F0FFFF"
+        android:textColorHint="#F0FFFF"
+        android:layout_margin="10dp"/>
+
+
+    <Button
+
+
+        android:layout_marginLeft="80dp"
+        android:layout_width="150dp"
+
+        android:id="@+id/regButton"
+        style="?android:textAppearanceSmall"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Rage"
+        android:layout_marginTop="21dp"
+        android:background=" #339966"
+        android:fontFamily="sans-serif-light"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+
+
+        android:layout_marginLeft="80dp"
+        android:layout_width="150dp"
+        android:id="@+id/log"
+        style="?android:textAppearanceSmall"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/regButton"
+        android:layout_marginTop="21dp"
+        android:background=" #339966"
+        android:fontFamily="sans-serif-light"
+        android:text="Log in"
+        android:textColor="#ffffff"
+        android:onClick="gologin"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+</RelativeLayout>
