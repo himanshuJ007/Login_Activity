@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.technicalrj.task.Feedback"
-    android:background="#002966"
+    android:background="#8080ff"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -25,12 +25,12 @@
         android:layout_margin="5dp"
         android:layout_width="fill_parent"
         android:layout_height="55dp"
-        android:backgroundTint="#ff704d"
+        android:backgroundTint="#fff"
         android:hint="Name"
         android:inputType="textPersonName"
         android:background="@drawable/button_style"
-        android:textColor="#ffff"
-        android:textColorHint="#ffff"
+        android:textColor="#000"
+        android:textColorHint="#000"
         />
 
     <EditText
@@ -40,12 +40,12 @@
         android:layout_height="55dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#ff704d"
+        android:backgroundTint="#fff"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:background="@drawable/button_style"
-        android:textColor="#ffff"
-        android:textColorHint="#ffff"/>
+        android:textColor="#000"
+        android:textColorHint="#000"/>
 
 
     <EditText
@@ -55,7 +55,7 @@
         android:layout_height="130dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#ff9980"
+        android:backgroundTint="#fff"
         android:gravity="top"
         android:hint="Your Message"
         android:fitsSystemWindows="true"
@@ -64,8 +64,8 @@
         android:singleLine="false"
         android:padding="5dp"
         android:background="@drawable/button_style"
-        android:textColor="#ffff"
-        android:textColorHint="#ffff"/>
+        android:textColor="#000"
+        android:textColorHint="#000"/>
 
     <Button
         android:id="@+id/submit"
