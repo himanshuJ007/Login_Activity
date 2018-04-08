@@ -65,6 +65,6 @@ public class Feedback extends AppCompatActivity {
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = firebaseDatabase.getReference(firebaseAuth.getUid());
         UserFeedback userFeedback = new UserFeedback(email,name,message);
-        myRef.setValue(userFeedback);
+        myRef.push().setValue(userFeedback);
     }
 }
